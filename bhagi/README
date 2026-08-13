@@ -1,0 +1,24 @@
+# Up Down Counter using Verilog
+
+## Description
+A 4-bit synchronous Up/Down Counter designed using Verilog HDL.
+
+## Inputs
+- clk: Clock signal
+- reset: Reset signal
+- up_down: Direction control
+
+## Output
+- count: 4-bit counter output
+
+## Operation
+- up_down = 1 → Up counting
+- up_down = 0 → Down counting
+- reset = 1 → Counter resets to 0
+
+## Simulation
+The testbench verifies both up-counting and down-counting operations.
+
+## Tools
+- Verilog HDL
+- Icarus Verilog / ModelSim / Vivado
